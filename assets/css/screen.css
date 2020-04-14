@@ -30,6 +30,27 @@ h1 {
   text-transform: uppercase;
 }
 
+/* Navigation Styles */
+.nav a {
+  background: white;
+  border: 0.12em solid black;
+  color: black;
+  display: block;
+  line-height: 0;
+  outline: 0;
+  text-align: center;
+  text-decoration: none;
+  padding: 1.125em; /* 18px / 16px = 1.125em */
+  margin-bottom: 0.6111111111em; /* 11px / 18px = 0.6111111111em */
+}
+
+.nav a:hover,
+.nav a:active,
+.nav a:focus {
+  background: black;
+  color: white;
+}
+
 h2 {
   font-family: "Major Mono Display", "Lucida Console", "Lucida Sans Typewriter", "Courier New", Courier, monospace;
   font-size: 1.5625em; /* 28.125px / 18px = 1.5625em */
