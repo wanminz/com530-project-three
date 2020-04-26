@@ -158,7 +158,6 @@ figcaption {
 
 /* 600px || 600 / 16 = 37.5em */
 @media screen and (min-width: 37.5em) {
-
 #introduction
   {
     display: grid;
@@ -185,7 +184,6 @@ figcaption {
 
 /* 700px || 700 / 16 = 43.75em */
 @media screen and (min-width: 43.75em) {
-
   #about {
     margin-top: 1em;
   }
