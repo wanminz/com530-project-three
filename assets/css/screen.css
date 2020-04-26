@@ -158,10 +158,6 @@ figcaption {
 
 /* 600px || 600 / 16 = 37.5em */
 @media screen and (min-width: 37.5em) {
-  .nav a {
-    margin-left: 3.0517777778em; /* 54.932px / 18px = 3.0517777778em */
-    margin-right: 3.0517777778em; /* 54.932px / 18px = 3.0517777778em */
-  }
 
 #introduction
   {
@@ -190,11 +186,6 @@ figcaption {
 /* 700px || 700 / 16 = 43.75em */
 @media screen and (min-width: 43.75em) {
 
-.nav a {
-    margin-left: 4.768em;
-    margin-right: 4.768em;
-}
-
   #about {
     margin-top: 1em;
   }
@@ -206,11 +197,6 @@ figcaption {
     padding-left: 2em;
     padding-right: 2em;
   }
-
-  .nav a {
-      margin-left: 7.451em;
-      margin-right: 7.451em;
-  }
 }
 
 /* 1100px || 1100 / 16 = 68.75em */
@@ -219,11 +205,6 @@ figcaption {
   #introduction {
     padding-left: 5em;
     padding-right: 5em;
-  }
-
-  .nav a {
-    margin-left: 14.552em;
-    margin-right: 14.552em;
   }
 
   #interests {
