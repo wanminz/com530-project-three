@@ -102,7 +102,7 @@ img {
   padding: 1.2222222222em; /* 22px / 18px = 1.2222222222em */
 }
 
-figcaption {
+#interests p {
   font-size: 0.8em; /* 14.4px / 18px = 0.8em */
   padding-bottom: 1.2222222222em; /* 22px / 18px = 1.2222222222em */
   text-align: center;
