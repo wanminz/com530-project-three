@@ -109,6 +109,23 @@ figcaption {
 }
 
 /* State Styles */
+/* 475px || 475 / 16 = 29.6875em */
+@media screen and (min-width: 29.6875em) {
+  .nav {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+  }
+
+  .nav li {
+    flex-grow: 1;
+  }
+
+  a#nav-resume {
+    border-left: none;
+    border-right: none;
+  }
+
 /* 500px || 500 / 16 = 31.25em */
 @media screen and (min-width: 31.25em) {
   h1
