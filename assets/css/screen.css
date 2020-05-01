@@ -184,6 +184,7 @@ img {
       flex: 1 0 auto;
       float: left;
       width: 45%;
+      padding-bottom: 2em;
     }
 
   .images li:nth-child(even)
@@ -219,7 +220,7 @@ img {
     margin-left: 5em;
     margin-right: 5em;
   }
-
+/*
   .images li {
     width: 30%;
   }
