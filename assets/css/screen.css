@@ -181,11 +181,15 @@ img {
     }
 
   .images li {
-    width: 45%;
-    flex: 1 0 auto;
-    float: left;
-    padding-right: 1em;
-  }
+      flex: 1 0 auto;
+      float: left;
+      width: 45%;
+    }
+
+  .images li:nth-child(even)
+    {
+      padding-left: 1em;
+    }
 }
 
 /* 700px || 700 / 16 = 43.75em */
