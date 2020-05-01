@@ -171,14 +171,14 @@ img {
     padding-left: 0.3em;
   }
 
-  .gallery {
-    display: flex;
-    flex-flow: wrap;
-  }
-
   #interests {
     padding: 3em;
   }
+
+  .images {
+      display: flex;
+      flex-flow: row wrap;
+    }
 
   .images li {
     width: 45%;
